@@ -1,14 +1,15 @@
-
-import Head from '../components/head';
-import Window from '../components/window';
+// src/pages/Home.tsx
+import './Home.css';
 
 export default function Home() {
   return (
-    <>
-      <Head />
-      <main style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-        <Window />
-      </main>
-    </>
+    <div className="home">
+      <h1 className="home-title">Key Simulator</h1>
+      <div className="home-buttons">
+        <button className="home-button">Instruccions</button>
+        <button className="home-button">Play</button>
+      </div>
+    </div>
   );
 }
+

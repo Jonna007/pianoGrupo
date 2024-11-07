@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Usa toda la altura de la pantalla */
+    background: url('/src/assets/piano3.jpg') no-repeat center center/cover;
+  }
+  
+  .home-title {
+    font-size: 4rem; /* Ajusta el tamaño de la fuente del título */
+    color: #fff;
+    margin-bottom: 3rem; /* Espacio entre el título y los botones */
+    text-align: center;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 2rem; /* Espacio entre los botones */
+  }
+  
+  .home-button {
+    padding: 1rem 3rem; /* Tamaño de los botones */
+    font-size: 1.2rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #1d6fa5;
+  }
+  

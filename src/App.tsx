@@ -1,18 +1,11 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './pages/home';
-import Game from './pages/game';
+import './App.css'
+import Home from './pages/home'
 
 function App() {
-  return (
-    <Router>
-      
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/game" element={<Game />} />
-      </Routes>
-    </Router>
-  );
+  return (
+    <Home />
+  )
 }
 
-export default App;
+export default App
